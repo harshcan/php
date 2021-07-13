@@ -1,0 +1,58 @@
+    .bg-my:hover {
+        background-color: #dbe6f1;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui;
+    }
+
+    .my-own-a a {
+        color: grey;
+    }
+
+    .label-my {
+        position: absolute;
+        top: 261px;
+        left: 684px;
+    }
+    #hidden{
+            display: none;
+    }
+    
+@media (max-width:360px) {
+        nav a{
+            display: none;
+        }
+
+        #hidden{
+            display: block;
+            margin-right: 1.25rem;
+        }
+        
+        .label-my{
+            display: none;
+        }
+
+        .my-header{
+            align-items: center;    border-bottom: 1px solid #e2e8f0;
+        }
+
+        .my-header .mt-4{
+            margin-top: 0rem;
+        }
+        .my-header .mb-4{
+            margin-bottom: 0em;
+        }
+        .my-w-full{width: 100%;}
+        .my-btn-div{
+            width: 84px; margin-left:auto;
+        }
+        .my-flex-wrap{
+            flex-wrap: wrap;
+        }
+        .my-flex-wrap .mr-5{margin-right: 0rem}
+        .border{border-top: none;}
+
+}
